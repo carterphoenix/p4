@@ -15,8 +15,18 @@ class States extends React.Component {
   render() {
     return (
       <div>
-        Replace this with the code for Project 4, Problem 2
+       <h1>Filter the States</h1>
+       <input
+          type="text"
+          placeholder="Enter a substring"
+          value={this.state.searchString}
+          onChange={this.handleInputChange}/>
+        <div className='filterer-substring'>
+          {this.state.searchStrig && <p>Filtering for: {this.state.searchString}</p>}
+        </div>
+        {this.renderStatesList()} {/* Render the filtered states list*/}
       </div>
+      
     );
   }
 }

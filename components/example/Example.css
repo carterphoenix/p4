@@ -27,6 +27,10 @@ you use won't conflict with these names.
   border: 1px dashed #722b00;
   display: inline-block;
   box-sizing: border-box;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  margin: 10px;
 }
 
 .code-name {
