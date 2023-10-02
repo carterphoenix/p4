@@ -16,7 +16,8 @@ if (models === undefined) {
 
 models.exampleModel = function () {
   return {
-    name: "Group 1",
+    name: "Group 1 aka Carter, Kieran, Anderson, Shar, Santi, and Shoaib",
     motto: "We will win..."
   };
 };
+
