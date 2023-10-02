@@ -5,7 +5,7 @@ Since CSS uses a global name space for classes we use a naming convention that i
 React application and the component in the class name.  The hope is any other stylesheets
 you use won't conflict with these names.
 */
-.example-code {
+.motto-update {
   font-family: Courier New, monospace;
   line-height: 1.3;
   padding-top: 20px;
@@ -19,7 +19,7 @@ you use won't conflict with these names.
   overflow-x: auto;
 }
 
-.example-output {
+.motto-update {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -27,12 +27,8 @@ you use won't conflict with these names.
   border: 1px dashed #722b00;
   display: inline-block;
   box-sizing: border-box;
-  font-size: 18px;
-  color: #333;
-  padding: 10px;
-  margin: 10px;
 }
 
-.code-name {
+.motto-update {
   font-family: Courier New, monospace;
 }
