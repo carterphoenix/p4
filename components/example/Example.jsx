@@ -103,12 +103,15 @@ class Example extends React.Component {
       <div className="container Example">
         <h1>Project 4 React.js Example</h1>
         <div className="motto-update">
-          <p> Name: {this.state.name}</p>
-          <p>
-            Motto: Kieran, Ashar, Carter, Shoab, Santi, Anderson... THis is our
-            motto for problem 1, To get the css file just change the names in
-            #Example.css to motto-update.
-          </p>
+          {/* Your problem #1 motto displaying and updating widget goes here */}
+            {this.state.name}
+            <br/>
+            {this.state.motto}
+            <hr></hr>
+        </div>
+        <div>
+            <label htmlFor="mottoId">Change Motto: </label>
+            <input id="mottoId" type="text" value={this.state.motto} onChange={this.handleMottoChangeBound} />
         </div>
         <p>
           This view is an example of a &nbsp;
